@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 768px) {
+    body {
+        background-color: #E6E6FF;
+    }
+}
+
+
+#topDiv {
+    background-color: rgb(6, 35, 94);
+}
+
+
+h1 {
+    color: whitesmoke;
+    /* margin-left: 20px; */
+    text-align: center;
+    font-size: 50px;
+    /*border:2px groove rgb(174, 230, 247);
+    border-radius: 25px;
+    /*background-color: rgb(197, 244, 252);
+    /* opacity: 0.6; */
+
+}
+
+p {
+    /* color: red; */
+    text-align: left;
+    border-left: 6px solid blue;
+    padding-left: 10px;
+
+}
+
+div {
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    font-size: 18px;
+
+    /*width: 300px;
+    padding: 25px; 
+    */
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: rgb(6, 35, 94);
+
+    border-radius: 5px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#divSkills {
+    list-style: disc;
+    list-style-position: inside;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.portfolioImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+form {
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+label {
+    display: block;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
+
+input[type=submit] {
+    display: block;
+    margin: 10px auto;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#connectDiv {
+    background-color: rgb(6, 35, 94);
+    color: whitesmoke;
+    text-align: center;
+}
